@@ -1,11 +1,11 @@
-<img src="fig1.png"/>
-
 # InSTability
 
 `InSTability` quantifies spot-level clustering instability across repeated
 spatial transcriptomics clustering runs. This repository provides two examples
 using Leiden clustering on human dorsolateral prefrontal cortex (DLPFC)
 samples 151671 and 151673.
+
+<img src="fig1.png"/>
 
 ## Overview
 
