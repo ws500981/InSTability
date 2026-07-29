@@ -9,9 +9,9 @@ samples 151671 and 151673.
 
 ## Overview
 
-`InSTability` repeatedly clusters the same spatial transcriptomics sample and
-uses the resulting partitions to measure how consistently each spot is grouped
-with other spots. Higher scores indicate that a spot's cluster membership is
+`InSTability` repeatedly clusters the same spatial transcriptomics sample with the same algorithm, 
+varying only a random seed, and uses the resulting partitions to measure how consistently each spot 
+is grouped with other spots. Higher scores indicate that a spot's cluster membership is
 less stable across runs.
 
 ## Installation
