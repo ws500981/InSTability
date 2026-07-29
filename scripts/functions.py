@@ -170,7 +170,6 @@ def search_leiden_resolution(
     coarse = True
 
     while resolution > start:
-        resolution = round(float(resolution), 10)
         with warnings.catch_warnings():
             warnings.filterwarnings(
                 "ignore",
