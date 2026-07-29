@@ -55,7 +55,7 @@ python scripts/run_leiden.py
 # Calculate InSTability
 python scripts/calculate_uncertainty.py
 
-# Create the Figure 2-style panel for each sample
+# Create the Figure panel for each sample
 python scripts/plot.py
 ```
 
