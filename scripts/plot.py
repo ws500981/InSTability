@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create Figure 2-style InSTability panels using spatialdata-plot."""
+"""Create Figure for InSTability panels using spatialdata-plot."""
 
 from argparse import ArgumentParser
 from pathlib import Path
