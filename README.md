@@ -14,10 +14,6 @@ uses the resulting partitions to measure how consistently each spot is grouped
 with other spots. Higher scores indicate that a spot's cluster membership is
 less stable across runs.
 
-The workflow overview should be saved as **`fig1.png` in the repository root**,
-in the same directory as this README. The image above will then render
-automatically on GitHub.
-
 ## Installation
 
 To install the dependencies, we recommend using Conda:
@@ -104,10 +100,10 @@ least 25% mitochondrial counts.
   and 50 nearest neighbors.
 - The requested cluster counts are five for sample 151671 and seven for sample
   151673.
-- Figure 2 is saved separately for each sample as
-  `figures/figure2_dlpfc_151671.{png,pdf}` and
-  `figures/figure2_dlpfc_151673.{png,pdf}`.
-- Each Figure 2-style panel contains the example Leiden partition, spotwise
+- Figure plot is saved separately for each sample as
+  `figures/dlpfc_151671.{png,pdf}` and
+  `figures/dlpfc_151673.{png,pdf}`.
+- Each Figure panel contains the example Leiden partition, spotwise
   InSTability, clusterwise InSTability, and reference labels. All spatial
   panels use `spatialdata-plot` with the same hexagonal geometry, grayscale
   histology, threshold colors, and grouped legend as the manuscript plotting
