@@ -1,0 +1,7 @@
+data/
+results/
+figures/
+*.pkl
+*.h5ad
+__pycache__/
+

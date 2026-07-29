@@ -1,0 +1,25 @@
+name: spatialplot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ca-certificates
+  - certifi
+  - openssl
+  - pip
+  - pip:
+      - spatialdata
+      - spatialdata-plot
+      - scanpy
+      - anndata
+      - geopandas
+      - shapely
+      - matplotlib
+      - joblib
+      - pandas
+      - numpy
+      - scipy
+      - scikit-learn
+      - scikit-misc
+      - igraph
+      - leidenalg
