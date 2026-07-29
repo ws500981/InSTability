@@ -109,6 +109,4 @@ least 25% mitochondrial counts.
   histology, threshold colors, and grouped legend as the manuscript plotting
   code.
 - `scripts/functions.py` contains the required preprocessing helpers.
-- `scripts/spot_removal.py` contains an optional DBSCAN-based helper. It is not
-  applied to the two DLPFC examples.
 - Large `.h5ad`, `.pkl`, and generated result files are excluded from Git.
