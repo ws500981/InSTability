@@ -1,18 +1,12 @@
 # InSTability
 
-`InSTability` quantifies spot-level clustering instability across repeated
-spatial transcriptomics clustering runs. This repository provides two examples
-using Leiden clustering on human dorsolateral prefrontal cortex (DLPFC)
-samples 151671 and 151673.
-
-<img src="fig1.png"/>
-
-## Overview
-
 `InSTability` repeatedly clusters the same spatial transcriptomics sample with the same algorithm, 
 varying only a random seed, and uses the resulting partitions to measure how consistently each spot 
-is grouped with other spots. Higher scores indicate that a spot's cluster membership is
+is grouped with other spots. We quantify spot-level clustering instability across repeated
+spatial transcriptomics clustering runs. Higher scores indicate that a spot's cluster membership is
 less stable across runs.
+
+<img src="fig1.png"/>
 
 ## Installation
 
@@ -42,6 +36,10 @@ PY
 Installation should take a few minutes on a typical workstation.
 
 ## Example
+
+This repository provides two examples
+using Leiden clustering on human dorsolateral prefrontal cortex (DLPFC)
+samples 151671 and 151673.
 
 The complete analysis can be run from the repository root:
 
